@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<beans xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+
+  <scan>
+    <!-- These exclusions were added by Errai to avoid deploying client-side classes to the server -->
+    <exclude name = "pl.korbeldaniel.erpe.client.local.BindableTelAnchor" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.JQueryProducer" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.JQueryProducer$JQueryArray" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.AppSetup" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.DateConverter" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.BaseContactView" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.BindableEmailAnchor" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.PaperTextArea" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.JQueryProducer$JQueryElement" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.ContactListPage" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.JQueryProducer$JQuery" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.ElementalProducer" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.Click" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.NavBar" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.ContactEditor" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.ContactDisplay" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.Click$Type" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.PaperInput" />
+    <!-- End of Errai exclusions -->
+  </scan>
+</beans>
