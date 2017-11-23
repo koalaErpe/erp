@@ -22,10 +22,6 @@ import com.google.gwt.user.client.ui.Widget;
 
 import gwt.material.design.client.ui.MaterialButton;
 import pl.korbeldaniel.erpe.client.local.JQueryProducer.JQuery;
-import pl.korbeldaniel.ui.ErpButton;
-import pl.korbeldaniel.ui.IsButton;
-import pl.korbeldaniel.ui.IsDiv;
-import pl.korbeldaniel.ui.ErpDiv;
 
 import org.jboss.errai.ioc.client.api.EntryPoint;
 import org.jboss.errai.ui.nav.client.local.NavigationPanel;
@@ -61,11 +57,7 @@ public class AppSetup {
 
 	@PostConstruct
   public void init() {
-	//Widget button = new ErpButton("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-	//RootPanel.get("rootPanel").add(navPanel);
-    IsButton w = new ErpButton("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-	RootPanel.get("rootPanel").add(w);
-    //$.wrap($.wrap(document.body).children().first()).before(navbar.getElement());
+    $.wrap($.wrap(document.body).children().first()).before(navbar.getElement());
   }
 
 }
