@@ -16,6 +16,7 @@
 
 package pl.korbeldaniel.erpe.client.local;
 
+import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.Widget;
@@ -60,8 +61,8 @@ public class AppSetup {
 	@PostConstruct
 	public void init() {
 		$.wrap($.wrap(document.body).children().first()).before(navbar.getElement());
-		IsButton button = new ErpButton("Testt");
-		RootPanel.get().add(button);
+		IsButton button2 = new ErpButton("Testt 2");
+		RootPanel.get().add(button2);
 	}
 
 }
