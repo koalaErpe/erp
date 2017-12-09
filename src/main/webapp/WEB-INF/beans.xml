@@ -7,6 +7,7 @@
     <exclude name = "pl.korbeldaniel.erpe.client.local.BindableTelAnchor" />
     <exclude name = "pl.korbeldaniel.erpe.client.local.JQueryProducer" />
     <exclude name = "pl.korbeldaniel.erpe.client.local.JQueryProducer$JQueryArray" />
+    <exclude name = "pl.korbeldaniel.erpe.client.local.Configuration" />
     <exclude name = "pl.korbeldaniel.erpe.client.local.AppSetup" />
     <exclude name = "pl.korbeldaniel.erpe.client.local.DateConverter" />
     <exclude name = "pl.korbeldaniel.erpe.client.local.BaseContactView" />

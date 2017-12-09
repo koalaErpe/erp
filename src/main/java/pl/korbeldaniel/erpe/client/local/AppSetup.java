@@ -16,16 +16,17 @@
 
 package pl.korbeldaniel.erpe.client.local;
 
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import gwt.material.design.client.ui.MaterialButton;
 import pl.korbeldaniel.erpe.client.local.JQueryProducer.JQuery;
-import pl.korbeldaniel.ui.client.ErpButton;
-import pl.korbeldaniel.ui.client.IsButton;
+//import pl.korbeldaniel.ui.client.ErpButton;
+//import pl.korbeldaniel.ui.client.IsButton;
 
+import org.jboss.errai.enterprise.client.jaxrs.api.RestClient;
 import org.jboss.errai.ioc.client.api.EntryPoint;
 import org.jboss.errai.ui.nav.client.local.NavigationPanel;
 
@@ -50,6 +51,9 @@ import static elemental2.dom.DomGlobal.document;
 public class AppSetup {
 
 	@Inject
+	private Configuration configuration;
+	
+	@Inject
 	private NavigationPanel navPanel;
 
 	@Inject
@@ -61,8 +65,10 @@ public class AppSetup {
 	@PostConstruct
 	public void init() {
 		$.wrap($.wrap(document.body).children().first()).before(navbar.getElement());
-		IsButton button2 = new ErpButton("Testt 2");
-		RootPanel.get().add(button2);
+/*		IsButton button2 = new ErpButton("Testt 2");
+		RootPanel.get().add(button2);*/
+		configuration.configure();
+
 	}
 
 }

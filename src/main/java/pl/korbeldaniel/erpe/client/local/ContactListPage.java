@@ -142,7 +142,7 @@ public class ContactListPage {
      * Triggers an HTTP request to the ContactStorageService. The call back will be invoked asynchronously to display
      * all retrieved contacts.
      */
-    //contactService.call((final List<Contact> contacts) -> binder.getModel().addAll(contacts)).getAllContacts();
+    contactService.call((final List<Contact> contacts) -> binder.getModel().addAll(contacts)).getAllContacts();
 
     // Remove placeholder table row from template.
     DOMUtil.removeAllElementChildren(list.getElement());
