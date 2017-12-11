@@ -22,6 +22,7 @@
 hs_err_pid*
 /target/
 
+.settings
 classes
 .classpath
 .directory
@@ -30,4 +31,6 @@ classes
 gwt-unitCache*
 org.eclipse*
 .errai/*
-src/main/webapp/.errai*
+.errai*
+src/main/webapp/bower*
+src/main/webapp*
