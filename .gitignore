@@ -34,3 +34,5 @@ org.eclipse*
 .errai*
 src/main/webapp/bower*
 src/main/webapp*
+
+db
