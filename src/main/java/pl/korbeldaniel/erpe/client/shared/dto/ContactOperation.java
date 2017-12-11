@@ -32,9 +32,12 @@ import pl.korbeldaniel.erpe.client.shared.entity.Contact;
 @Portable
 public class ContactOperation {
 
-  private final Contact contact;
-  private final String sourceQueueSessionId;
+  private Contact contact;
+  private String sourceQueueSessionId;
 
+  public ContactOperation() {
+	  super();
+  }
   public ContactOperation(final @MapsTo("contact") Contact contact,
           final @MapsTo("sourceQueueSessionId") String sourceQueueSessionId) {
     this.contact = contact;

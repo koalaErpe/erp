@@ -59,19 +59,17 @@ public class Contact {
   @Id
   @GeneratedValue(strategy = GenerationType.SEQUENCE)
   private long id;
-
   private String fullname;
-
   private String nickname;
-
   private String phonenumber;
-
   private String email;
-
   private Date birthday;
-
   private String notes;
 
+  public Contact() {
+	  super();
+  }
+  
   public Date getBirthday() {
     return birthday;
   }

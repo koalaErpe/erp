@@ -7,7 +7,7 @@ import org.jboss.errai.enterprise.client.jaxrs.api.RestClient;
 @ApplicationScoped
 public class Configuration {
 
-	public void configure() {
+	public void initialize() {
 		RestClient.setApplicationRoot("rest");
 		RestClient.setJacksonMarshallingActive(true);
 	}

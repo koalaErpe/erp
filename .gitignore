@@ -30,3 +30,4 @@ classes
 gwt-unitCache*
 org.eclipse*
 .errai/*
+src/main/webapp/.errai*
