@@ -20,7 +20,7 @@
 		<as.version>10.0.0.Final</as.version>
 		<!-- Add the absolute path for $JBOSS_HOME below to manage another instance -->
 		<!--<errai.jboss.home>${project.build.directory}/wildfly-${as.version}</errai.jboss.home>-->
-		<errai.jboss.home>/home/korbeldaniel/IdeaProjects/erp/server/wildfly-10.0.0.Final/</errai.jboss.home>
+		<errai.jboss.home>/home/korbeldaniel/IdeaProjects/server/wildfly-10.0.0.Final/</errai.jboss.home>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<gwt.compile.user.agent>ie8,ie9,ie10,gecko1_8,safari</gwt.compile.user.agent>
