@@ -22,12 +22,14 @@ import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
+import com.google.gwt.user.client.ui.Label;
 import org.jboss.errai.ioc.client.api.EntryPoint;
 import org.jboss.errai.ui.nav.client.local.NavigationPanel;
 
 import com.google.gwt.user.client.ui.RootPanel;
 
 import pl.korbeldaniel.erpe.client.local.JQueryProducer.JQuery;
+import pl.korbeldaniel.erpe.client.local.resources.Resources;
 //import pl.korbeldaniel.ui.client.ErpButton;
 //import pl.korbeldaniel.ui.client.IsButton;
 

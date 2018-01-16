@@ -28,6 +28,7 @@ classes
 .directory
 .jsdtscope
 .project
+.idea
 gwt-unitCache*
 org.eclipse*
 .errai/*
